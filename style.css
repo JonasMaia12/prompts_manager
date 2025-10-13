@@ -166,9 +166,6 @@ button {
   left: 24px;
 
   z-index: 0;
-  background: var(--gray-800);
-  border-radius 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
 .sidebar {

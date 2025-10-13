@@ -202,8 +202,8 @@ function init() {
   renderPromptList("");
   attachAllEditableHandlers();
 
-  elements.sidebar.classList.remove("open");
-  elements.sidebar.classList.add("collapsed");
+  elements.sidebar.classList.add("open");
+  elements.sidebar.classList.remove("collapsed");
 
   elements.btnOpen.addEventListener("click", openSidebar);
   elements.btnCollapse.addEventListener("click", closeSidebar);
